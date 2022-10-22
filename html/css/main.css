@@ -389,6 +389,25 @@ body {
     content: "x"
 }
 
+.item-slot-amount-money {
+    position: absolute;
+    bottom: 0.8vh;
+    left: 0.55vw;
+}
+
+.item-slot-amount-money > p {
+    color: #ffffff;
+    text-align: right;
+    font-size: 1.25vh;
+    font-weight: 400;
+    cursor: none;
+}
+
+.item-slot-amount-money > p:after {
+    content: "$"
+}
+
+
 .item-slot-name {
     position: absolute;
     bottom: 0.8vh;
@@ -804,6 +823,22 @@ body {
 
 .z-hotbar-item-slot-amount > p:after {
     content: "x";
+}
+
+.z-hotbar-item-slot-amount-money {
+    position: absolute;
+    bottom: 0.8vh;
+    left: 0.55vw;
+}
+
+.z-hotbar-item-slot-amount-money > p {
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+}
+
+.z-hotbar-item-slot-amount-money > p:after {
+    content: "$";
 }
 
 .z-hotbar-item-slot-amount-name {
